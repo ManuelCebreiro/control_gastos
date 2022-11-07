@@ -21,7 +21,7 @@ const ListadoGastos = ({ gastos, setGastoEditar, eliminarGasto, filtro, gastosFi
                     </>
                 ) : (
                     <>
-                        {/* <h2>{gastos.length ? 'Gastos' : 'No hay gastos aún'}</h2>
+                        <h2>{gastos.length ? 'Gastos' : 'No hay gastos aún'}</h2>
                         {gastos.map(gasto => (
                             <Gasto
                                 key={gasto.id}
@@ -29,7 +29,7 @@ const ListadoGastos = ({ gastos, setGastoEditar, eliminarGasto, filtro, gastosFi
                                 setGastoEditar={setGastoEditar}
                                 eliminarGasto={eliminarGasto}
                             />
-                        ))} */}
+                        ))}
                     </>
                 )
             }
